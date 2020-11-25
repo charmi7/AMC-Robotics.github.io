@@ -1,3 +1,5 @@
+/******* ABOUT US PAGE *******/
+/* Officer cards styling */
 .ocard {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
@@ -9,17 +11,47 @@
 .ocard:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
 }
-/* Member card styling (about us) */
+
+/* About Us heading */
+#aucolor{
+  background-color:white;
+  height:100px;
+  padding:1px;
+}
+
+#aucolor h1{
+  color:black;
+  font-family:sans-serif;
+	text-align: center
+}
+
+/* About Us paragraph text*/
+#aboutustext{
+  color:black;
+  text-align:left;
+  padding:100px;
+  padding:1em;  
+  font-family:sans-serif;
+	margin: auto;
+} 
+
+#aboutuscolor{
+  background-color:white;
+
+/* Member card styling */
 .mcard {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 8px 16px 0 rgba(52, 73, 94, 0.9);
   transition: 0.3s;
   width: 300px;
   border-radius: 20px;
   margin-top:30px;
 }
+
 .mcard:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
 }
+
+/******* HOME PAGE *******/
 /* Homepage Cards */
 .card {
   box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
